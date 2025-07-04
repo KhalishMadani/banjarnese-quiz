@@ -7,7 +7,7 @@ const router = createRouter(
         history: createWebHistory(),
         routes: [
             { path: '/banjarnese-quiz/', component: Home },
-            { path: '/banjarnese-quiz/questionary', component: Question }
+            { path: '/banjarnese-quiz/questionary/', component: Question }
         ] 
     }
 )
