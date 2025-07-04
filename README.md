@@ -7,5 +7,15 @@ Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://
 
 #### HOW TO RUN THIS PROJECT
 
+# Installing in your local
 1. npm install
 2. npm run dev
+
+# Re-Deploy in github pages
+1. npm run build
+2. git push origin `dist` folder to `gh-pages` branch
+
+
+# Note
+Every push to main branch won't trigger deploy
+
